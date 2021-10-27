@@ -206,6 +206,7 @@ GET|http://127.0.0.1:8000/board/13
 ### response
 
 ```json
+DELETE|http://127.0.0.1:8000/board/13
 {
     "message": "SUCCESS"
 }
