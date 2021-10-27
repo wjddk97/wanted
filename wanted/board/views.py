@@ -99,6 +99,7 @@ class BoardDetailView(View):
         board = Board.objects.get(id=board_id)
 
         board_detail = [{
+            'board_id'   : board.id,
             'writer'     : board.account.account,
             'title'      : board.title,
             'body'       : board.body,
