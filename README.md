@@ -196,7 +196,7 @@ GET|http://127.0.0.1:8000/board/13
 }
 ```
 
-### 7. 글 삭제[]
+### 7. 글 삭제[DELETE]
 - 유저 확인
 - board_id에 해당하는 글 삭제
 - **endpoint :** ```http://127.0.0.1:8000/board/<int:board_id>'```
